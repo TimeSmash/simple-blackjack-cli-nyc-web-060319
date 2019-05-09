@@ -11,12 +11,8 @@ def deal_card
   #   end
 end
 
-def display_card_total
-  if get_user_input == "h" 
-    card_1+card_2+card_3
-  elsif get_user_input == "s"
-    card_1+card_2
-  end
+def display_card_total(total)
+  total
 end
 
 def prompt_user
