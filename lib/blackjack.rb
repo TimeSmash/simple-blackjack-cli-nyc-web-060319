@@ -4,10 +4,11 @@ end
 
 def deal_card
   card_1 = rand(1..11)
-  card_2 = rand(1..11)
-    if get_user_input == "h"
-      card_3 = rand(1..11)
-    end
+  card_1
+  # card_2 = rand(1..11)
+  #   if get_user_input == "h"
+  #     card_3 = rand(1..11)
+  #   end
 end
 
 def display_card_total
