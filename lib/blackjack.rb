@@ -63,3 +63,5 @@ def runner
   end
   end_game(current_total)
 end  
+
+#In the until loop, if you do not redefine current_total within the logic, it will reset back to its initial value even if you did something to it (due to pass-by value????). For example, let's say current_total was 14, then you do hit? on it, put h, and then get a new total of 20. When display_card_total is run on current_total, it's going to say 14 because you never REDEFINED current_total previously. You may have done something on the previous line which is all well and good, but it's not permanently altered--to permamntly alter it, redefine it
