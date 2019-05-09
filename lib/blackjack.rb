@@ -3,7 +3,11 @@ def welcome
 end
 
 def deal_card
-  # code #deal_card here
+  card_1 = rand(1..11)
+  card_2 = rand(1..11)
+    if get_user_input = "hit"
+      card_3 = rand(1..11)
+        if card_1+card_2+card_3 
 end
 
 def display_card_total
